@@ -5,12 +5,12 @@
         Dim memberID As Integer
         name = ""
         memberID = 0
-        FileOpen(1, "studentinfo.txt", OpenMode.Input)
+        FileOpen(1, "memberinfo.txt", OpenMode.Input)
         While Not EOF(1)
             Input(1, name)
             Input(1, memberID)
-            Console.WriteLine("student name:" & name)
-            Console.WriteLine("student memberID:" & memberID)
+            Console.WriteLine("member name:" & name)
+            Console.WriteLine(" memberID:" & memberID)
         End While
         FileClose(1)
         Console.ReadKey()

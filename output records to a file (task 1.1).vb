@@ -7,7 +7,7 @@
         more = "N"
         name = ""
         memberID = 0
-        FileOpen(1, "studentinfo.txt", OpenMode.Output)
+        FileOpen(1, "memberinfo.txt", OpenMode.Output)
         Do
             Console.Write("Enter name:")
             name = Console.ReadLine
